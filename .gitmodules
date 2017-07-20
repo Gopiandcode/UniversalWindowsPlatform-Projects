@@ -19,3 +19,15 @@
 [submodule "PoorMansHamburger\\"]
 	path = PoorMansHamburger\\
 	url = ./PoorMansHamburger\\
+[submodule "NavigationExample\\"]
+	path = NavigationExample\\
+	url = ./NavigationExample\\
+[submodule "LegendaryChallenge\\"]
+	path = LegendaryChallenge\\
+	url = ./LegendaryChallenge\\
+[submodule "LayoutLearning\\"]
+	path = LayoutLearning\\
+	url = ./LayoutLearning\\
+[submodule "InitialProgram\\"]
+	path = InitialProgram\\
+	url = ./InitialProgram\\

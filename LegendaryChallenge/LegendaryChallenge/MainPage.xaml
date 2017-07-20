@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="LegendaryChallenge.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LegendaryChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock
+            FontSize="48"
+            Text="Lorem Ipsum"/>
+        <StackPanel Orientation="Horizontal">
+        <TextBlock
+            TextWrapping="Wrap"
+            Width="250"
+            Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Amet nullam, velit tempus mollis, bibendum eu eu. Sit facilisis eros voluptatum repudiandae sed commodo, erat adipiscing placerat augue in consequat turpis, lacinia amet nam, diam vel vitae ligula odio eget ut. Venenatis luctus augue turpis nec rutrum. Mauris tincidunt arcu pellentesque torquent, molestie sit urna. Ut non semper accumsan aenean sodales, urna viverra aliquam, in id eget curae vestibulum vitae. Dui varius integer, at ipsum, donec velit vel velit magna, sed donec, placerat nec.
+
+Cursus sodales sed, ornare eleifend in lectus vel, nulla commodo, a et nostrum lectus nulla. Felis et consequat repudiandae vitae massa vestibulum. In malesuada neque, neque nisl etiam eu, mauris aptent convallis amet wisi erat. Libero vel nec cursus id. Vel lectus iaculis, viverra faucibus pharetra elit eget, urna ut risus, felis sodales eu vitae. Quam neque. Class orci quis consectetuer posuere odio, mauris eget eos vestibulum tellus mollis, lacus ut dolor pede, dui ut. Duis dolor vivamus rhoncus, porttitor amet amet accumsan dapibus habitant suspendisse, elementum id vitae eu, vehicula suspendisse risus, rhoncus aliquam.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque."/>
+        <TextBlock
+            Width="500"
+            TextWrapping="Wrap" 
+            Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Amet nullam, velit tempus mollis, bibendum eu eu. Sit facilisis eros voluptatum repudiandae sed commodo, erat adipiscing placerat augue in consequat turpis, lacinia amet nam, diam vel vitae ligula odio eget ut. Venenatis luctus augue turpis nec rutrum. Mauris tincidunt arcu pellentesque torquent, molestie sit urna. Ut non semper accumsan aenean sodales, urna viverra aliquam, in id eget curae vestibulum vitae. Dui varius integer, at ipsum, donec velit vel velit magna, sed donec, placerat nec.
+
+Cursus sodales sed, ornare eleifend in lectus vel, nulla commodo, a et nostrum lectus nulla. Felis et consequat repudiandae vitae massa vestibulum. In malesuada neque, neque nisl etiam eu, mauris aptent convallis amet wisi erat. Libero vel nec cursus id. Vel lectus iaculis, viverra faucibus pharetra elit eget, urna ut risus, felis sodales eu vitae. Quam neque. Class orci quis consectetuer posuere odio, mauris eget eos vestibulum tellus mollis, lacus ut dolor pede, dui ut. Duis dolor vivamus rhoncus, porttitor amet amet accumsan dapibus habitant suspendisse, elementum id vitae eu, vehicula suspendisse risus, rhoncus aliquam.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque."/>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle
+                    VerticalAlignment="Top"
+                    Width="150"
+                    Height="300"
+                    Fill="Red"/>
+                <StackPanel Orientation="Vertical">
+                    <Rectangle
+                        Height="150"
+                        Width="150"
+                        Fill="Blue"/>
+                    <Rectangle 
+                        Height="150"
+                        Width="150"
+                        Fill="Green"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Page>
