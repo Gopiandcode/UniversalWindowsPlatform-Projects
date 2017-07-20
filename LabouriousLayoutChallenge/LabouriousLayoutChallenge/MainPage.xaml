@@ -1,0 +1,115 @@
+﻿<Page
+    x:Class="LabouriousLayoutChallenge.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LabouriousLayoutChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer>
+    <Grid Margin="10,10,10,10"  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top">Title 1</TextBlock>
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <TextBlock TextWrapping="Wrap" Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+ eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque." />
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Green"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="DarkBlue"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Red"
+                           Width="150"
+                           Height="150"/>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">Title 2</TextBlock>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque." />
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Red"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="DarkBlue"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Blue" 
+                           Width="150"
+                           Height="150"/>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top">Title 3</TextBlock>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <TextBlock TextWrapping="Wrap" Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque." />
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Black"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Yellow"
+                           Width="150"
+                           Height="150"/>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Top">Title 4</TextBlock>
+            <StackPanel Grid.Column="1" Grid.Row="3">
+            <TextBlock TextWrapping="Wrap" Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque." />
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Red"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Green"
+                           Width="150"
+                           Height="150"/>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBlock Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Top">Title 5</TextBlock>
+        <StackPanel Grid.Column="1" Grid.Row="4">
+            <TextBlock TextWrapping="Wrap" Text=" Lorem ipsum dolor sit amet, nam pellentesque eleifend porttitor ac, tincidunt semper congue laoreet nulla lobortis, massa diam, diam elit ac id a nunc. Amet diam dolor tempus tristique. Vivamus eget amet lacus est magna, sed nec donec a donec, integer praesent orci iaculis magnis, ab etiam ligula lorem gravida, rutrum curabitur. Posuere ultrices massa rutrum ipsum, sagittis pede porttitor metus egestas ac, nam duis, nunc tempus nulla, posuere pellentesque venenatis tellus turpis pharetra ipsum. Eget in quis ornare, dolor leo purus ac non facilisis turpis, quis congue id mauris nam orci ultricies.
+
+Mauris tincidunt nec sed in, cursus cras eget et proin mauris, quam elementum metus, sapien laoreet consequat vestibulum varius purus, pulvinar faucibus habitasse auctor nam eget nostra. Dolor aliquet erat etiam leo, euismod nec aliquet quis dui, dolor temporibus vestibulum dolor. Eros sed ac wisi ultrices. Sollicitudin quis tellus luctus aliquam aliquam nec, elementum imperdiet vestibulum nascetur ante nulla aliquam, pellentesque nullam torquent. Tempus metus quam nec, odio at lobortis accumsan voluptatem, dui neque." />
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Green"
+                           Width="150"
+                           Height="150"/>
+                <Rectangle Fill="Red"
+                           Width="150"
+                           Height="150"/>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</ScrollViewer>
+</Page>

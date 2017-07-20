@@ -1,0 +1,21 @@
+[submodule "HamburgerHeaven\\"]
+	path = HamburgerHeaven\\
+	url = ./HamburgerHeaven\\
+[submodule "HelloWorld\\"]
+	path = HelloWorld\\
+	url = ./HelloWorld\\
+[submodule "InitialProgram"]
+	path = InitialProgram
+	url = ./InitialProgram
+[submodule "LabouriousLayoutChallenge\\"]
+	path = LabouriousLayoutChallenge\\
+	url = ./LabouriousLayoutChallenge\\
+[submodule "LayoutLearning"]
+	path = LayoutLearning
+	url = ./LayoutLearning
+[submodule "NavigationExample"]
+	path = NavigationExample
+	url = ./NavigationExample
+[submodule "PoorMansHamburger\\"]
+	path = PoorMansHamburger\\
+	url = ./PoorMansHamburger\\
